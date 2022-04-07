@@ -25,3 +25,7 @@ print 'indent 4 spaces'
     
     }
 ```
+
+[another Link](https://titan2142.github.io/cse15l-lab-reports/another)
+
+[week 2 lab report](https://titan2142.github.io/cse15l-lab-reports/lab-report-1-week-%202)

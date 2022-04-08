@@ -2,7 +2,7 @@
 
 By John Carrion
 
-The purpose of this report is to give a step by step guide to logging into the course specific account on  `` ieng6``.
+The purpose of this report is to give a step by step guide to logging into the course specific account on  ``` ieng6```.
 
 Here are the steps I took in order to login and setup remote access on my laptop.
 
@@ -26,9 +26,9 @@ Here are the steps I took in order to login and setup remote access on my laptop
     ![VSC capture](https://user-images.githubusercontent.com/102689054/162342170-81d27c7d-66a4-43f5-9f0a-7d1fd46b07a7.PNG)
 
     
-* Remotly connect to `` ieng6``
+* Remotly connect to ``` ieng6 ```
 
-  Use the command `` ssh cs15lsp22***@ieng6.ucsd.edu `` with the *** being your specific account login name.
+  Use the command ``` ssh cs15lsp22***@ieng6.ucsd.edu ``` with the *** being your specific account login name.
   you can find your login name from the [account lookup](https://sdacs.ucsd.edu/~icc/index.php) page you used to update your password.
   
   ![remote connect capture](https://user-images.githubusercontent.com/102689054/162341886-ec49dd9a-215d-43a4-9864-38eb6d9f760a.PNG)
@@ -41,15 +41,15 @@ Here are the steps I took in order to login and setup remote access on my laptop
    ![adding and deleting a file](https://user-images.githubusercontent.com/102689054/162341769-f92d09d5-bd0e-4319-bebb-37cb451af116.PNG)
 
    
-* move a file with ``SCP``
+* move a file with ```SCP```
 
   After logging out, on the client terminal, create a text file with ``touch newText`` to make a new text file.
   
-  use ``scp newText.txt cs15lsp22***@ieng6.ucsd.edu `` where ** is your specific account login, to move `` newText`` to ypur remote server.
+  use ```scp newText.txt cs15lsp22***@ieng6.ucsd.edu ``` where ** is your specific account login, to move ``` newText ``` to ypur remote server.
   
   It will ask for your password, enter it in to complete the transfer.
   
-  try logging back in to the remote server and use ``ls`` to see if the `` newText`` sucessfully transferd over
+  try logging back in to the remote server and use ```ls``` to see if the ``` newText ``` sucessfully transferd over
   
   you can logout, you are now ready to remote access the UCSD server form your local client computer.
   
@@ -66,7 +66,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
   
   on your personal computer (client) run:
   
-  ``ssh-keygen``
+  ```ssh-keygen```
   
   you should see:
   
@@ -119,16 +119,16 @@ you now have a pair of keys, a priviate and public one.
   
 * optimize remote login 
 
-  Now we need to copy the _public_ (not the private) key to a ``.ssh`` directory of your user
+  Now we need to copy the _public_ (not the private) key to a ```.ssh``` directory of your user
   account on the server. 
   
-  log back into the remote server with `` ssh cs15lsp22***@ieng6.ucsd.edu ``
+  log back into the remote server with ``` ssh cs15lsp22***@ieng6.ucsd.edu ```
   
   make a new directory:
   
-  ``mkdir .ssh``
+  ```mkdir .ssh```
   
-  log out with ``exit``
+  log out with ```exit```
   
   on your personal computer(client), type:
   

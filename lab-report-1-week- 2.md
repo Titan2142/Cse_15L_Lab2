@@ -12,7 +12,9 @@ Here are the steps I took in order to login and setup remote access on my laptop
   
 * change your password  
 
-  ![Follow This guide](How-to-Reset-your-Password.pdf) to reset your remote access password.
+  [Follow This guide](How-to-Reset-your-Password.pdf) to reset your remote access password.
+  
+  
   
   It's important to do this step first, because it takes about 15-20 min for the UCSD server to update your password
   

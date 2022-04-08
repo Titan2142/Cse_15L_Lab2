@@ -21,14 +21,23 @@ Here are the steps I took in order to login and setup remote access on my laptop
     [Go to this link](https://code.visualstudio.com/download) to download Visual Studio code.
     Any IDE can be used, but this guide uses VS Code as the example.
     
+    ![VSC capture](https://user-images.githubusercontent.com/102689054/162342170-81d27c7d-66a4-43f5-9f0a-7d1fd46b07a7.PNG)
+
+    
 * Remotly connect to `` ieng6``
 
   Use the command `` ssh cs15lsp22***@ieng6.ucsd.edu `` with the *** being your specific account login name.
   you can find your login name from the [account lookup](https://sdacs.ucsd.edu/~icc/index.php) page you used to update your password.
   
+  ![remote connect capture](https://user-images.githubusercontent.com/102689054/162341886-ec49dd9a-215d-43a4-9864-38eb6d9f760a.PNG)
+
+  
 * Try some commands
    try some commands, like ``ls``, to show your directory. make a new directory, change directories to the new directory, create a file called ``file1``
    and move it between directories. when you feel comfortable, logout with the ``exit`` command.
+   
+   ![adding and deleting a file](https://user-images.githubusercontent.com/102689054/162341769-f92d09d5-bd0e-4319-bebb-37cb451af116.PNG)
+
    
 * move a file with ``SCP``
 
@@ -38,9 +47,12 @@ Here are the steps I took in order to login and setup remote access on my laptop
   
   It will ask for your password, enter it in to complete the transfer.
   
-  try logging back in to the remote server and use ``ls`` to see if the `` newText`` sucessfully transferd over.
+  try logging back in to the remote server and use ``ls`` to see if the `` newText`` sucessfully transferd over
   
   you can logout, you are now ready to remote access the UCSD server form your local client computer.
+  
+  ![Scp1](https://user-images.githubusercontent.com/102689054/162342004-7cd24ecf-b5d4-4f79-b4fa-d5942a38696c.PNG)
+
   
 ### Making it easier to login to your remote server
 
@@ -48,7 +60,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
   
   We can generate a priviate and public pair og ssh keys to speed up this process.
   
-8. create an ssh key
+* create an ssh key
   
   on your personal computer (client) run:
   
@@ -103,7 +115,7 @@ if on windows, use ```ssh-add``` command
 
 you now have a pair of keys, a priviate and public one.
   
-10. optimize remote login 
+* optimize remote login 
 
   Now we need to copy the _public_ (not the private) key to a ``.ssh`` directory of your user
   account on the server. 
@@ -122,7 +134,9 @@ you now have a pair of keys, a priviate and public one.
   scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
-wit <user-name> your user name for your pathway to your .ssh file
+![ssh key](https://user-images.githubusercontent.com/102689054/162342120-f4295ee6-dfd3-4993-a52e-50d8e9d1b943.PNG)
+
+with <user-name> your user name for your pathway to your .ssh file
   
   you should now be able to login without having to enter a password.
 

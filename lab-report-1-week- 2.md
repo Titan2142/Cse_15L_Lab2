@@ -100,20 +100,14 @@ The key's randomart image is:
 |           +.+.o |
 |             ..  |
 +----[SHA256]-----+
-If you’re on Windows, follow the extra ssh-add steps here:
-https://docs.microsoft.com/en-us/windows-server/administration/openssh/openss
-h_keymanagement#user-key-generation
-This created two new files on your system; the private key (in a file id_rsa) and the
-public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
-Now we need to copy the public (not the private) key to the .ssh directory of your user
-account on the server.
-$ ssh cs15lsp22zz@ieng6.ucsd.edu
-<Enter Password>
-# now on server
-$ mkdir .ssh
+
 ```
 
-if on windows, use ```ssh-add``` command
+if on windows, use
+```
+ssh-add
+``` 
+command
 
 you now have a pair of keys, a priviate and public one.
   
@@ -122,7 +116,10 @@ you now have a pair of keys, a priviate and public one.
   Now we need to copy the _public_ (not the private) key to a ```.ssh``` directory of your user
   account on the server. 
   
-  log back into the remote server with ``` ssh cs15lsp22***@ieng6.ucsd.edu ```
+  log back into the remote server with 
+  ``` 
+  ssh cs15lsp22***@ieng6.ucsd.edu 
+  ```
   
   make a new directory:
   

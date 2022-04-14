@@ -140,4 +140,18 @@ with <user-name> your user name for your pathway to your .ssh file
   you should now be able to login without having to enter a password.
 
 ![remote connect capture](https://user-images.githubusercontent.com/102689054/162286392-d2a25752-a560-4154-bb0c-85fcb747f4ca.PNG)
+  
+  You can save time by writingmultiple commands on the same line, just seperate each with a  ";"
+  
+  try : 
+  ```
+  mkdir newDir; cd newDir
+  ```
+  
+  this should make a new directory, and change your directory to the newDir.
+  
+  ![multicommands](https://user-images.githubusercontent.com/102689054/163460827-4ab23798-92e3-4d8d-bf4b-88ad78669405.PNG)
+  
+  How much time could you save by entering multiple commands on one line?
+
 

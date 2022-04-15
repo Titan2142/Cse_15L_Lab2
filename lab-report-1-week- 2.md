@@ -1,4 +1,4 @@
-## Lab Report 1: Setting up remote access 
+# Lab Report 1: Setting up remote access 
 
 By John Carrion
 
@@ -6,7 +6,7 @@ The purpose of this report is to give a step by step guide to logging into the c
 
 Here are the steps I took in order to login and setup remote access on my laptop.
 
-## Installing VScode
+# Installing VScode
 
 * Install Open ssh
 
@@ -27,7 +27,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
     
     ![VSC capture](https://user-images.githubusercontent.com/102689054/162342170-81d27c7d-66a4-43f5-9f0a-7d1fd46b07a7.PNG)
 
-## Remotely Connecting
+# Remotely Connecting
     
 * Remotly connect to ``` ieng6 ```
 
@@ -36,7 +36,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
   
   ![remote connect capture](https://user-images.githubusercontent.com/102689054/162341886-ec49dd9a-215d-43a4-9864-38eb6d9f760a.PNG)
 
-## Trying Some Commands
+# Trying Some Commands
   
 * Try some commands
    try some commands, like ``ls``, to show your directory. make a new directory, change directories to the new directory, create a file called ``file1``
@@ -44,7 +44,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
    
    ![adding and deleting a file](https://user-images.githubusercontent.com/102689054/162341769-f92d09d5-bd0e-4319-bebb-37cb451af116.PNG)
    
-## Moving Files with scp
+# Moving Files with scp
    
 * move a file with ```SCP```
 
@@ -61,7 +61,7 @@ Here are the steps I took in order to login and setup remote access on my laptop
   ![Scp1](https://user-images.githubusercontent.com/102689054/162342004-7cd24ecf-b5d4-4f79-b4fa-d5942a38696c.PNG)
   
 
-## Making it easier to login to your remote server by Setting an SSH Key
+# Making it easier to login to your remote server by Setting an SSH Key
 
   You may have noticed, but it can be tedious logging in and moving files to your remote server, because it asks for a password every time.
   
@@ -144,7 +144,7 @@ with <user-name> your user name for your pathway to your .ssh file
 
 ![remote connect capture](https://user-images.githubusercontent.com/102689054/162286392-d2a25752-a560-4154-bb0c-85fcb747f4ca.PNG)
 
-## Optimizing Remote Running
+# Optimizing Remote Running
   
   You can save time by writingmultiple commands on the same line, just seperate each with a  ";"
   

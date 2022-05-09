@@ -32,4 +32,4 @@ print 'indent 4 spaces'
 
 [week 4 lab report 2](https://titan2142.github.io/cse15l-lab-reports/lab-report-2-week-4)
 
-[week 6 labreport 3](https://titan2142.github.io/cse15l-lab-reports/lab-report-3-week-6)
+[week 6 lab report 3](https://titan2142.github.io/cse15l-lab-reports/lab-report-3-week-6)
